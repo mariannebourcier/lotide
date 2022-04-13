@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/mariannebourcier/lotide.git"
   },
-  "author": "",
+  "author": "@marianne.bou/lotide",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mariannebourcier/lotide/issues"
