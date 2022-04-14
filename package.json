@@ -1,7 +1,7 @@
 {
   "name": "lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Functions for arrays and objects.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
