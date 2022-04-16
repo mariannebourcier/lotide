@@ -5,12 +5,8 @@
 //keep going until reach value callback
 
 const takeUntil = function(array, callback) {
-//result variable empty array
   let results = [];
-  //loop through array
   for (let length of array) {
-    //if reach element, stop, push to results array
-    //return result
     if (callback(length)) {
       return results;
     } results.push(length);
