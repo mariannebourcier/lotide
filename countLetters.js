@@ -7,6 +7,8 @@ const assertEqual = function(actual, expected) {
 
 };
 
+//count letters in a string and return the result
+
 const countLetters = function(string) {
   let result = {};
   string = string.replaceAll(' ', '');

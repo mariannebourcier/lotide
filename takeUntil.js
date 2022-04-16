@@ -1,8 +1,6 @@
 //function that creates a slice of array
-//with elements from beginning on array
+//with elements from beginning of array
 //callback will take in array elements until return true
-//take in array to use
-//keep going until reach value callback
 
 const takeUntil = function(array, callback) {
   let results = [];

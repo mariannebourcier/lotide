@@ -16,6 +16,7 @@ const assertArraysEqual = function(firstArray, secondArray) {
 
 const words = ["ground", "control", "to", "major", "tom"];
 
+//return new array with the callback value
 
 const map = function(array, callback) {
   const results = [];
@@ -25,7 +26,6 @@ const map = function(array, callback) {
   return results;
 };
 
-//const results1 = map(words, word => word[0]);
 
 //Testing
 const test1 = ["ground", "control", "to", "major", "tom", "hi"];

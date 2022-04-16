@@ -1,15 +1,4 @@
-// create result variable
-
-// 	find key by value => returns array of given objects property names , all the strings
-// 	store the key => in a new variable
-// 	loop through the key array => to get the key we want when we use our callback
-// 	for of loop => for in loop
-	
-// 	if the key is a match with the callback function => find the right key
-// 	push as the result variable => first match = push as result
-// 	break after finding the result else return undefined
-	
-// 	return result
+//find the key of an object using the callback parameter
 
 const findKey = function(object, callback) {
   let result = [];

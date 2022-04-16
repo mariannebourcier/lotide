@@ -16,9 +16,6 @@ const assertArraysEqual = function(firstArray, secondArray) {
 
 
 //return array with only middle element/s
-//1-2 elements = empty array
-// odd numbers of elements = single middle element
-// even numbers of elements = two middle elements
 
 const middle = function(arr) {
   let middleElement = [];

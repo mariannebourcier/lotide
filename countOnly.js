@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 
 };
-
+//count a specified item in an object and return the result
 const countOnly = function(allItems, itemsToCount) {
   let results = {};
 

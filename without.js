@@ -6,7 +6,6 @@ const eqArrays = function(firstArray, secondArray) {
   }
 };
 
-// eslint-disable-next-line no-unused-vars
 const assertArraysEqual = function(firstArray, secondArray) {
   if (eqArrays(firstArray, secondArray)) {
     console.log(`🤑🤑🤑 Assertion Passed: ${firstArray} === ${secondArray}`);
@@ -17,10 +16,6 @@ const assertArraysEqual = function(firstArray, secondArray) {
 
 
 //return an array without unwanted elements
-//take in source array and itemstoremove array
-//return elements from source that are not in the itemstoremove array
-//use assertArraysEqual for test-cases
-//return a new array and not modify the original
 
 const without = function(source, itemsToRemove) {
   let newArray = [];

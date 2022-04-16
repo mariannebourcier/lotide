@@ -6,6 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 
 };
+//compare the object values and return true or false depending if they are a match or not
 
 let eqArrays = function(firstArray, secondArray) {
   if (JSON.stringify(firstArray) === JSON.stringify(secondArray)) {
@@ -26,9 +27,7 @@ const eqObjects = function(object1, object2) {
   //to see if array comparisons need to be made
   for (let key of object1Keys) {
     if (Array.isArray(object1[key]) && Array.isArray(object2[key])) return eqArrays(object1[key], object2[key]);
-    //use eqArrays and if both values are arrays = return true
     else if (object1[key] !== object2[key]) return false;
-    //else if values are primitives; use === to compare the two values
   }
   return true;
 };

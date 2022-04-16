@@ -13,20 +13,14 @@ const assertArraysEqual = function(firstArray, secondArray) {
     console.log(`🤨🤨🤨 Assertion Failed: ${firstArray} !== ${secondArray}`);
   }
 };
-
-//return index position of letter, if duplicate return the two indexes in one array
-//use for loop
+//find index position of specified letter in a string
 
 const letterPositions = function(sentence) {
-  //to store result
   let results = {};
-  //ignore spaces
   sentence = sentence.replaceAll(' ', '');
-  //for loop to go through
   for (let i = 0; i < sentence.length; i++) {
   
     let letters = sentence[i];
-    //condition to add index
     if (results[letters]) {
       results[letters].push(i);
     } else {
