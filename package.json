@@ -1,13 +1,13 @@
 {
   "name": "lotide-marianne.bou",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functions for arrays and objects.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test" : "mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
