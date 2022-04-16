@@ -47,7 +47,8 @@ The following functions are currently implemented:
 
 Instruction
 
-Once this library is downloaded from NPM, it can be used right away.
-Simply call the needed function by typing _. followed by the name of the function and enter the parameters in the parentheses.
+
+Once downloaded from NPM, call 
+all the needed functions by typing _. followed by the name of the function and enter the parameters in the parentheses.
 
 Example: `const results = _.tail([1, 2, 3]) // => [2, 3]`
