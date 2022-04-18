@@ -26,6 +26,8 @@ const map = function(array, callback) {
   return results;
 };
 
+module.exports = map;
+
 
 //Testing
 const test1 = ["ground", "control", "to", "major", "tom", "hi"];

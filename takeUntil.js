@@ -38,4 +38,6 @@ const assertArraysEqual = function(firstArray, secondArray) {
   }
 };
 
+module.exports = takeUntil;
+
 assertArraysEqual(takeUntil(data2,x => x === ','), ['I\'ve', 'been', 'to', 'Hollywood']);

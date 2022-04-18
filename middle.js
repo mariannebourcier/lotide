@@ -18,10 +18,11 @@ const assertArraysEqual = function(firstArray, secondArray) {
 //return array with only middle element/s
 
 const middle = function(arr) {
+
   let middleElement = [];
 
-  if (arr.length <= 2 && arr.length >= 0) {
-    return middleElement;
+  if (arr.length <= 2) {
+    return [];
   } else if (arr.length % 2 === 1) {
     middleElement.push(arr[Math.floor(arr.length / 2)]);
   } else if (arr.length % 2 === 0) {
@@ -30,5 +31,7 @@ const middle = function(arr) {
   } return middleElement;
 };
 
+console.log(middle([1,2,3]));
+console.log(middle([2]));
 
 module.exports = middle;
